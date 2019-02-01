@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1299343527271416}
+  m_IsPrefabAsset: 1
+--- !u!1 &1299343527271416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4456151849458500}
+  - component: {fileID: 2569400266273159658}
+  - component: {fileID: 114968917806228922}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Grid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4456151849458500
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299343527271416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -0.5, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114968917806228922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299343527271416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf192f69d8964d569f08178134f8c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evenColor: {fileID: 2100000, guid: fa6ad8c46f88648a0aa26730b8515950, type: 2}
+  oddColor: {fileID: 2100000, guid: 82fcf279b420d4be7ae3336a45e3c4e6, type: 2}
+  insideBorderMaterial: {fileID: 2100000, guid: 3bd883842544449569609dd030a7e515,
+    type: 2}
+  outsideBorderMaterial: {fileID: 2100000, guid: c0463c0f62a4141d38dc0b88cb2b38e6,
+    type: 2}
+  wallPhysicMaterial: {fileID: 13400000, guid: 00a1a63d0b29541c795e50af3cc889ba, type: 2}
+--- !u!156049354 &2569400266273159658
+Grid:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299343527271416}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 1}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 1

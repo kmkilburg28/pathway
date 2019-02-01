@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/AutoGrid.unity
+    guid: 8723c911538d541afa8b8e47bb4c985d
+  - enabled: 0
+    path: Assets/Scenes/gridDesign.unity
+    guid: c7e9b449960f2466fa59acc08d1fd360
+  - enabled: 0
+    path: Assets/Scenes/LevelCreation.unity
+    guid: bd0534ea8d78947679158e03ca48fd81
+  - enabled: 1
+    path: Assets/Scenes/LoadGameScene/LoadGame.unity
+    guid: 4997d017759e34e59abeec2b93c72c30
+  - enabled: 1
+    path: Assets/Scenes/LoadGameScene/TitleScreen.unity
+    guid: e3c381d78eea54e439e22af009f314e7
+  - enabled: 1
+    path: Assets/Scenes/Level/MainMenu.unity
+    guid: a69f4e98224674b959069510aa1e1cff
+  - enabled: 1
+    path: Assets/Scenes/Level/GenerateGrid.unity
+    guid: 710278ac85a4d4290a67591a010cc7f7
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Level/ConstructLevel.unity
+    guid: 9a0f1d35d17694a31bcb928f3b8cebd1
+  - enabled: 1
+    path: Assets/Scenes/Level/PlayLevel.unity
+    guid: ebbb5342f13eb45dc8060dd49e94a3e3
+  m_configObjects: {}
